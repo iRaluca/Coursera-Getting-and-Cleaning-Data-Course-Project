@@ -11,9 +11,10 @@ The original source (raw data) represents data collected from the accelerometers
 * a code book that describes the variables, the data, any transformations or work that performed to clean up the data called CodeBook.md
 * this README.md file that provide an overview of all the files from the repository and how they are connected.
 
-### The steps that need to be be performed in order to obtain the result of the analysis:
-* fork this repository to your working directory
-* source the file "run_analysis.R"
+### The steps that need to be performed in order to obtain the result of the analysis:
+* fork this repository 
+* clone it to your local working directory
+* source the file "run_analysis.R": Example: source("run_analysis.R")
 * call the function: run_analysis() - this function will also print all the main steps that are performed in this analysis
 * to read more about the processing steps performed, please read: CodeBook.md file from this repository.
 

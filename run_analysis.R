@@ -59,8 +59,8 @@ run_analysis <- function (){
         ## download and unzip directory
         downloadsource(fileurl, destfile, unzippeddirname)
         
-        print("Step 1 -> Read and merges the training and the test sets to create one data set.")
-        # read data from test files and add support information as column
+        print("Step 1 -> Reads and merges the training and the test sets to create one data set.")
+        # read data from trining files and add support information as column
         trainingset <- read.table("./UCI HAR Dataset/train/X_train.txt", stringsAsFactors = FALSE, header = FALSE)
         traininglabel <- read.table("./UCI HAR Dataset/train/y_train.txt", stringsAsFactors = FALSE, header = FALSE)
         trainingsubject <- read.table("./UCI HAR Dataset/train/subject_train.txt", stringsAsFactors = FALSE, header = FALSE)
@@ -127,4 +127,9 @@ run_analysis <- function (){
         print(paste("Analysis done! Tidy files can be found here:", getwd()))
 }
 
-##run_analysis()
+## To run the analysis:
+## source("run_analysis.R") #if the file exist in your working directory
+## run_analysis()
+
+
+

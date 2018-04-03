@@ -4,7 +4,7 @@
 ### Overview - variables - firsttidydataset.csv
 * activity
     - list of activities performed by a subject
-        - values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+    - values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 * subject
      - The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. This variable contains the volunteer number
      - values: 1, 2, 3,...30
@@ -14,26 +14,26 @@
      - Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tbodyaccjerk-xyz and tbodygyrojerk-xyz). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tbodyaccmag, tgravityaccmag, tbodyaccjerkmag, tbodygyromag, tbodygyrojerkmag).
      - Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fbodyacc-xyz, fbodyaccjerk-xyz, fbodygyro-xyz, fbodyaccjerkmag, fbodygyromag, fbodygyrojerkmag. (Note the 'f' to indicate frequency domain signals). 
      - These signals were used to estimate variables of the feature vector for each pattern: '-xyz' is used to denote 3-axial signals in the X, Y and Z directions.
-            -> tbodyacc-xyz
-            -> tgravityacc-xyz
-            -> tbodyaccjerk-xyz
-            -> tbodygyro-xyz
-            -> tbodygyrojerk-xyz
-            -> tbodyaccmag
-            -> tgravityaccmag
-            -> tbodyaccjerkmag
-            -> tbodygyromag
-            -> tbodygyroJerkMag
-            -> fbodyacc-xyz
-            -> fbodyaccJerk-xyz
-            -> fbodygyro-xyz
-            -> fbodyaccmag
-            -> fbodyaccjerkmag
-            -> fbodygyromag
-            -> fbodygyrojerkmag
+        - tbodyacc-xyz
+        - tgravityacc-xyz
+        - tbodyaccjerk-xyz
+        - tbodygyro-xyz
+        - tbodygyrojerk-xyz
+        - tbodyaccmag
+        - tgravityaccmag
+        - tbodyaccjerkmag
+        - tbodygyromag
+        - tbodygyroJerkMag
+        - fbodyacc-xyz
+        - fbodyaccJerk-xyz
+        - fbodygyro-xyz
+        - fbodyaccmag
+        - fbodyaccjerkmag
+        - fbodygyromag
+        - fbodygyrojerkmag
      - The set of variables that were estimated from these signals are: 
-            -> mean: Mean value
-            -> std: Standard deviation
+         - mean: Mean value
+         - std: Standard deviation
 
 ### Overview - variables - secondtidydataset.csv
 * activity

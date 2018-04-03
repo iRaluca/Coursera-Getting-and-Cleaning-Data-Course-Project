@@ -34,7 +34,7 @@
         - mean: Mean value
         - std: Standard deviation
 
-### Overview - variables - secondtidydataset.csv
+### Overview - variables - secondtidydataset.csv or tidy.txt (contain the same data)
 * activity
     - list of activities performed by a subject
     - values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING

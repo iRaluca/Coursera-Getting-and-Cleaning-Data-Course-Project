@@ -119,9 +119,8 @@ run_analysis <- function (){
         # -> test if at least one feature was found at step 2
         if(length(features$feature[requiredfeatures]) > 0){
                 secondtidydataset <- tbl_df(tidydataset) %>% 
-                                gather(variablename, variablevalue, 3:lastfeatureindex, na.rm = TRUE) %>%
-                                        group_by(variablename, activity, subject) %>%
-                                                mutate(avgvaluebygroup = mean(variablevalue, na.rm = TRUE))
+                                group_by(activity, subject) %>%
+                                        summarise_all(mean, na.rm=TRUE)
         }
         print("Write second tidy dataset to secondtidydataset.csv file to the working directory")
         writecsvfile (secondtidydataset, "secondtidydataset.csv", row.names=FALSE)
